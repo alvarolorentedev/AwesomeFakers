@@ -2,11 +2,11 @@
 
 Small set of resources and exampels of faker libraries for multiple languages
 
-## Javascript
+### Javascript
 
 - [Faker.js](https://github.com/marak/Faker.js/)
 
-## GO
+### GO
 
--[Faker](https://github.com/bxcodec/faker)
+- [Faker](https://github.com/bxcodec/faker)
 
