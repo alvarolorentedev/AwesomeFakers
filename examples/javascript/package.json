@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:dev": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "automock": false,
+    "testMatch": [
+      "**/*-test.js"
+    ]
+  }
+}

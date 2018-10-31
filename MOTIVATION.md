@@ -1,4 +1,5 @@
-# Awesome Fakers
+# Fakers?
+
 
 Small set of resources and exampels of faker libraries for multiple languages
 
@@ -8,9 +9,7 @@ Faker libraries are resources used to generate random inputs.
 
 ## Why to used them?
 
-- ### Non Static Data: 
-
-Fakers are very useful for testing as it provides non static data that can help test to be more meanningful and robusts.
+- Static Data is evil: Static data can cause your test not to be meanningful and leave most of the cases untested.
 
 ```js
 let sum = (first, second) => { return 3 }
@@ -20,9 +19,7 @@ test('adds 1 + 2 to equal 3', () => {
 });
 ```
 
-- ### Simplify complexity of tests:
-
-Fakers allow to simplify the input and complexity of your test by generating random data, In the next 
+- Test imput complexity: It is posible to generate meaningful tests without fakers but in exchange you will require to pass this data as input to the test. 
 
 ```js
 let sum = (first, second) => { return first+second }
@@ -36,12 +33,5 @@ let sum = (first, second) => { return first+second }
       });
 })
 ```
-
-
-
-## Faker Libraries
-
-### Javascript
-
-- [Faker.js](https://github.com/marak/Faker.js/)
+- Gives meaning to test coverage: as you can see on the first example the test coverage is 100% and if you read the test is seems meaningful but the code behind is not.
 
