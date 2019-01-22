@@ -6,6 +6,10 @@ Small set of resources and exampels of faker libraries for multiple languages
 
 - [Faker.js](https://github.com/marak/Faker.js/)
 
+### Flow
+
+- [flow runtime faker](https://github.com/kanekotic/flow-runtime-faker)
+
 ### GO
 
 - [Faker](https://github.com/bxcodec/faker)
