@@ -1,15 +1,12 @@
-# Fakers?
-
-
-Small set of resources and exampels of faker libraries for multiple languages
-
 ## What are faker libraries?
 
 Faker libraries are resources used to generate random inputs.
 
 ## Why to used them?
 
-- Static Data is evil: Static data can cause your test not to be meanningful and leave most of the cases untested.
+- Dont get tired thinking about your inputs for the test. think about your types.
+
+- Static Data is evil: Static data can cause your test not to be meaningful and leave most of the cases untested.
 
 ```js
 let sum = (first, second) => { return 3 }
@@ -19,7 +16,7 @@ test('adds 1 + 2 to equal 3', () => {
 });
 ```
 
-- Test imput complexity: It is posible to generate meaningful tests without fakers but in exchange you will require to pass this data as input to the test. 
+- Test input complexity: It is possible to generate meaningful tests without fakers but in exchange you will require to pass this data as input to the test. 
 
 ```js
 let sum = (first, second) => { return first+second }

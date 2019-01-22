@@ -1,6 +1,6 @@
 # Awesome Fakers
 
-Small set of resources and exampels of faker libraries for multiple languages
+Small set of resources and examples of faker libraries for multiple languages
 
 ### Javascript
 
