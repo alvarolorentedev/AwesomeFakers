@@ -28,6 +28,6 @@ type AStruct struct {
 	Height        float32 `faker:"long"`
 }
 
-func main() {
-	fmt.Println("hello world")
+func SomeAwesomeFunction(aStruct SomeStruct) {
+	fmt.Printf("%+v\n", aStruct)
 }
