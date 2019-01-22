@@ -24,8 +24,8 @@ type SomeStruct struct {
 	Struct   AStruct
 }
 type AStruct struct {
-	Number        int64
-	Height        int64
+	Number        float32 `faker:"lat"`
+	Height        float32 `faker:"long"`
 }
 
 func main() {
